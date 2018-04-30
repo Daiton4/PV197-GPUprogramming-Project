@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file framework.cu...
+  
+  C:\Users\Martin\Documents\Visual Studio 2017\Projects\PV197 project\PV197 project>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\framework.cu.obj "C:\Users\Martin\Documents\Visual Studio 2017\Projects\PV197 project\PV197 project\framework.cu" 
+  framework.cu
+C:/Users/Martin/Documents/Visual Studio 2017/Projects/PV197 project/PV197 project/framework.cu(128): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PV197 project.vcxproj -> C:\Users\Martin\Documents\Visual Studio 2017\Projects\PV197 project\x64\Debug\PV197 project.exe
+  PV197 project.vcxproj -> C:\Users\Martin\Documents\Visual Studio 2017\Projects\PV197 project\x64\Debug\PV197 project.pdb (Partial PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\Martin\Documents\Visual Studio 2017\Projects\PV197 project\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
